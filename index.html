@@ -2,48 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Daily Form</title>
+    <title>Newsletter Form</title>
     <link rel="icon" href="favicon.png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
 <body>
     <div class="ba-container">
-        <header class="ba-header-content">
-            <img class="ba-header__logo" src="assets/sign-up-icon.svg" alt="key-icon">
-            <h1 class="ba-header__title">Create your free account</h1>
-            <p class="ba-header__text ba-text">Come and join our cool and amazing community, fill
-                in your details to get started. Already have an account?
-                <a class="ba-link" href="#">Log in.</a>
-            </p>
-        </header>
-        <main class="ba-main-content">
-            <form class="ba-form-content">
-                <div class="ba-flex-container">
-                    <div class="ba-flex__item">
-                        <label>
-                            <input class="ba-input ba-input__style" type="text" placeholder="First name">
-                        </label>
-                    </div>
-                    <div class="ba-flex__item">
-                        <label>
-                            <input class="ba-input ba-input__style" type="text" placeholder="Last name">
-                        </label>
-                    </div>
-                </div>
-                <label class="">
-                    <input class="ba-input ba-input__style" type="email" placeholder="Email address">
-                </label>
-                <label class="">
-                    <input class="ba-input ba-input__style" type="password" placeholder="Password">
-                </label>
-                <button class="ba-form-button" type="submit">Sign up for free</button>
-            </form>
-        </main>
-        <footer class="ba-footer-content">
-            <p class="ba-footer__text ba-text">By clicking on “Sign up for free”, you agree to the
-                <a class="ba-link" href="#">Terms of Service</a>
-                and the <a class="ba-link" href="#">Privacy Policy</a></p>
-        </footer>
+        <div class="ba-logo"></div>
+        <button class="ba-btn-close"></button>
+        <section class="ba-content">
+            <h1 class="ba-title">Newsletter</h1>
+            <span class="ba-text">Stay up to date with our latest news and products.</span>
+            <label>
+                <input class="ba-input" type="email" placeholder="Your email address">
+             </label>
+            <button class="ba-btn-submit" type="submit">Subscribe</button>
+            <span class="ba-text-footer">Your email is safe with us, we don’t spam.</span>
+        </section>
     </div>
 </body>
 </html>
